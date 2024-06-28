@@ -1,9 +1,10 @@
 <div align="center">
-	<h1>User Cards List</h1>
-A React application to display a list of users fetched from an API, with functionality to search, add, update, and delete users. 
+	<h1><b>🪪 User Cards List 🪪</b></h1>
+	<p>A React application to display a list of users fetched from an API, with functionality to search, add, update, and delete users.</p>
+	<img src="https://github.com/mi1sh/user-cards-list/assets/106558234/19a48f26-2420-44d8-a2f5-a2c7576f3fe4"/>
 </div>
 
-## Technologies Used
+## 🛠️ Technologies Used
 
 - [React](https://reactjs.org/)
 - [TypeScript](https://www.typescriptlang.org/)
@@ -11,7 +12,7 @@ A React application to display a list of users fetched from an API, with functio
 - [React-Toastify](https://fkhadra.github.io/react-toastify/introduction)
 - [JSONPlaceholder API](https://jsonplaceholder.typicode.com/)
 
-## Features
+## 🌟 Features
 
 - Fetch and display users as cards with photo, name, email, and phone number
 - Search for users by name, email, or phone number
@@ -19,14 +20,14 @@ A React application to display a list of users fetched from an API, with functio
 - Update existing users
 - Delete users
 
-## Getting Started
+## 🧑‍💻 Getting Started
 
-### Prerequisites
+### ❕ Prerequisites
 
 - [Node.js](https://nodejs.org/en/download/) (v12 or higher)
 - [npm](https://www.npmjs.com/get-npm) or [yarn](https://yarnpkg.com/)
 
-### Installation
+### 💿 Installation
 
 1. Clone the repository:
 
@@ -52,23 +53,23 @@ or
 yarn install
 ```
 
-### Running the Application
+### 🏃 Running the Application
 
 To start the development server, run:
 
 ```sh
-npm start
+npm dev
 ```
 
 or
 
 ```sh
-yarn start
+yarn run dev
 ```
 
 The application will be available at `http://localhost:3000`.
 
-## Project Structure
+## 🏗️ Project Structure
 
 - `src/`
 	- `assets/` - Icons and other static assets
@@ -78,7 +79,7 @@ The application will be available at `http://localhost:3000`.
 	- `App.tsx` - Main application component
 	- `main.tsx` - Entry point
 
-## API Endpoints
+## 🕸️ API Endpoints
 
 - Fetch Users: `GET https://jsonplaceholder.typicode.com/users`
 - Add User: `POST https://jsonplaceholder.typicode.com/users`

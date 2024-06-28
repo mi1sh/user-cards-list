@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import {addUser, deleteUser, updateUser} from './services/api.ts';
-import {Bounce, toast, ToastContainer} from 'react-toastify';
+import {toast, ToastContainer} from 'react-toastify';
 import {User} from './types';
 
 import {SadIcon} from './assets/icons/SadIcon';
@@ -94,7 +94,6 @@ export const App: React.FC = () => {
 				draggable: true,
 				progress: undefined,
 				theme: "dark",
-				transition: Bounce,
 			});
 		}
 	};
@@ -120,7 +119,6 @@ export const App: React.FC = () => {
 					draggable
 					pauseOnHover
 					theme="dark"
-					transition: Bounce
 				/>
 				<div className="md:flex justify-between">
 					<SearchPanel onSearch={handleSearch} />

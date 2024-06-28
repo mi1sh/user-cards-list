@@ -3,7 +3,7 @@ import {User, UserCardProps} from '../types';
 import {deleteUser, updateUser} from '../services/api';
 import {TrashCanIcon} from '../assets/icons/TrashCanIcon.tsx';
 import {PencilIcon} from '../assets/icons/PencilIcon.tsx';
-import {Bounce, toast} from 'react-toastify';
+import {toast} from 'react-toastify';
 
 export const UserCard: React.FC<UserCardProps> = ({user, onDelete, onUpdate}) => {
 	const [isEditing, setIsEditing] = useState(false);
@@ -27,7 +27,6 @@ export const UserCard: React.FC<UserCardProps> = ({user, onDelete, onUpdate}) =>
 				draggable: true,
 				progress: undefined,
 				theme: "dark",
-				transition: Bounce,
 			});
 		}
 	};
@@ -51,7 +50,6 @@ export const UserCard: React.FC<UserCardProps> = ({user, onDelete, onUpdate}) =>
 				draggable: true,
 				progress: undefined,
 				theme: "dark",
-				transition: Bounce,
 			});
 		}
 	};
